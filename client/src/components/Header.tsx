@@ -16,7 +16,7 @@ const HeaderItems: T_HeaderItem[] = [{
 
 export const Header = () => {
     return      <>
-    <div className="flex flex-row justify-center items-center bg-primary w-full h-1/6">
+    <div className="flex flex-row justify-center items-center bg-darkest w-full h-1/5 gap-4">
     {HeaderItems.map((item, index) => {
         return <HeaderItem key={index} text={item.text} path={item.path}/>
         })}</div>
